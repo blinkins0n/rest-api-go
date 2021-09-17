@@ -11,9 +11,7 @@ import (
 	"github.com/gorilla/mux"
 )
 
-//
 // Article - Our struct for all articles
-//
 
 type Article struct {
 	Id      string `json:"Id"`
